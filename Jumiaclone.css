@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aqua;
+    padding: 20px;
+}
+.word-one{text-decoration: underline;}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    margin-bottom: 20px;
+}
+.last-portion{
+    background-color: azure;
+    padding: 5px 20px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.first-portions{
+    background-color: azure;
+    border-radius: 10px;
+    padding: 20px;
+    list-style:none;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    gap: 5px;  
+}
+
+
+.hero-image{
+    display:flex;
+    flex-direction: row-reverse
+}
+.hero-images1{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 40px;
+    padding-bottom: 80px;
+    gap: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.hero-images2{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.hero-images3{
+    display:flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    gap: 10px;
+    flex-wrap:wrap;
+}
+img:hover{
+    padding: 10px;
+}
+/* .image1:hover{
+    width: ;
+} */
+img{
+    border-radius: 10px;
+}
+.images2{
+    border-style: solid;
+    border-color: blueviolet;
+    padding: 3px;
+    border-width: 1.5px;
+
+}
+.photo-one{
+    display: flex;
+    flex-direction: column;
+}
