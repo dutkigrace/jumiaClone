@@ -34,6 +34,10 @@ body{
     display:flex;
     flex-direction: column;
     gap: 5px;  
+    
+}
+.hero-text2:hover{
+color: orange;
 }
 
 
@@ -45,9 +49,9 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: aliceblue;
-    padding: 40px;
-    padding-bottom: 80px;
-    gap: 10px;
+    padding: 20px;
+    padding-bottom: 40px;
+    gap: 5px;
     margin: 10px;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -58,7 +62,7 @@ body{
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
-    gap: 10px;
+    gap: 5px;
     flex-wrap: wrap;
 }
 .hero-images3{
@@ -67,11 +71,11 @@ body{
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
-    gap: 10px;
+    gap: 5px;
     flex-wrap:wrap;
 }
 img:hover{
-    padding: 10px;
+    padding: 2px;
 }
 /* .image1:hover{
     width: ;
@@ -89,4 +93,77 @@ img{
 .photo-one{
     display: flex;
     flex-direction: column;
+}
+.header{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-text4{
+    display: flex;
+    justify-content: center;
+}
+.last-herotext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header-search{
+    display: flex;
+    gap: 5px;
+}
+.search-button{
+    background-color: orange;
+    border-color: orange;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+}
+.search-input{
+    display: flex;
+    align-items: center;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: white;
+    width: 500px;
+}
+.search-text{
+    border: none;
+    outline: none;
+    width:300px
+
+}
+.star{
+    background-color: orange;
+    border-radius: 100px;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star-icon{
+color:white
+
+}
+.logo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.JUMIA{
+   font-weight: 800; 
+   font-size: 40px;
+   text-transform: uppercase;
 }
