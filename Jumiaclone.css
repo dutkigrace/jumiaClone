@@ -100,8 +100,11 @@ img{
     padding: 20px;
     margin: 10px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    
+
 
 }
 
@@ -167,3 +170,23 @@ color:white
    font-size: 40px;
    text-transform: uppercase;
 }
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;  
+}
+.header-content:hover{
+    color: orange;
+}
+
+.red-header{
+    background-color: red;
+
+}
+
+ .other-shopping-options{
+    display: flex;
+    gap: 10px;
+ }
